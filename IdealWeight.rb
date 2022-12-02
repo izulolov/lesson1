@@ -4,7 +4,7 @@ name = gets.chomp
 puts "Введите ваш вес:"
 weight = gets.chomp.to_f
 
-if(weight-110*1.15 < 0)
+if((weight-110)*1.15 < 0)
     puts "#{name}, Ваш вес уже оптимальный"
 else puts "#{name},Ваш вес не оптимальный :("
 
